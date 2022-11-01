@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Count</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url('index.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            font-size: 6vw;
+            font-weight: bold;
+            align-content: center;
+            color: black;
+        }
+        .content{
+            display: inline-block;
+            position: relative;
+            top:8vh;
+            left:30vw;
+        }
+        button{
+            padding: 10px 5px;
+            background-color:brown;
+            color:white;
+            width:10vw;
+            position: relative;
+            top: 291px;
+            left: 109px;
+        }
+        #save-btn{
+            padding: 10px 5px;
+            background-color:brown;
+            color:white;
+            width:10vw;
+            position: relative;
+            top: 391px;
+            left: -83px;
+        }
+        p{
+            font-size: 6vw;
+            font-weight: bold;
+            align-content: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>People Entered</h1>
+        <h1 id="countEl">0</h1>
+        <p id="save-el"></p>
+    </div>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <script src="First.js"></script>
+</body>
+</html>
